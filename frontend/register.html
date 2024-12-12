@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Вход</h2>
+    <h2>Регистрация</h2>
     <form action="#" method="POST">
         <label for="username">Логин:</label><br>
         <input type="text" id="username" name="username" placeholder="Введите логин"><br><br>
@@ -15,8 +15,12 @@
         <label for="password">Пароль:</label><br>
         <input type="password" id="password" name="password" placeholder="Введите пароль"><br><br>
 
-        <button type="submit">Вход</button>
+        <label for="confirm-password">Повтор пароля:</label><br>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Введите пароль"><br><br>
+
+
+        <button type="submit">Зарегистрироваться</button>
     </form>
-    <p>Нет аккаунта? <a href="register.html">Регистрация</a></p>
+    <button onclick="window.location.href='index.html';">Назад</button>
 </body>
 </html>
